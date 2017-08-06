@@ -1,0 +1,50 @@
+﻿@model ClassesDAO.PRATO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PRATO</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RESTAURANTE.NOME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RESTAURANTE.NOME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DESCRICAO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRICAO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VALOR)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VALOR)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IMAGENS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IMAGENS)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CODIGO }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ClassesDAO.RESTAURANTE>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Cadastro de restaurantes</h2>
+
+<p>
+    @Html.ActionLink("Adicionar novo restaurante", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NOME)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NOME)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.CODIGO }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.CODIGO }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.CODIGO })
+        </td>
+    </tr>
+}
+
+</table>
