@@ -76,7 +76,6 @@ C:\Back-End\Back-End\bin\System.Web.WebPages.dll
 C:\Back-End\Back-End\bin\System.Web.WebPages.Razor.dll
 C:\Back-End\Back-End\bin\WebGrease.dll
 C:\Back-End\Back-End\bin\ClassesDAO.pdb
-C:\Back-End\Back-End\bin\ClassesDAO.dll.config
 C:\Back-End\Back-End\bin\EntityFramework.xml
 C:\Back-End\Back-End\bin\EntityFramework.SqlServer.xml
 C:\Back-End\Back-End\bin\EntityFramework.SqlServerCompact.xml
@@ -146,3 +145,4 @@ C:\Back-End\Back-End\bin\ko\System.Spatial.resources.dll
 C:\Back-End\Back-End\bin\ru\System.Spatial.resources.dll
 C:\Back-End\Back-End\bin\zh-Hans\System.Spatial.resources.dll
 C:\Back-End\Back-End\bin\zh-Hant\System.Spatial.resources.dll
+C:\Back-End\Back-End\bin\ClassesDAO.dll.config
