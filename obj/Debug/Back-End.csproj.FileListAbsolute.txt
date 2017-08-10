@@ -146,3 +146,6 @@ C:\Back-End\Back-End\bin\ru\System.Spatial.resources.dll
 C:\Back-End\Back-End\bin\zh-Hans\System.Spatial.resources.dll
 C:\Back-End\Back-End\bin\zh-Hant\System.Spatial.resources.dll
 C:\Back-End\Back-End\bin\ClassesDAO.dll.config
+C:\Back-End\Back-End\bin\System.Web.Cors.dll
+C:\Back-End\Back-End\bin\System.Web.Http.Cors.dll
+C:\Back-End\Back-End\bin\System.Web.Http.Cors.xml

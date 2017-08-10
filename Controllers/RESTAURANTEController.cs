@@ -1,19 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using ClassesDAO;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
 using System.Web.Http.OData;
-using ClassesDAO;
+using System.Web.Http.Cors;
+
 
 namespace Back_End.Controllers
 {
+    [EnableCors(origins: "*", headers:"*", methods: "*" )]
     public class RESTAURANTEController : ApiController
     {
         private DADOS_MODEL db = new DADOS_MODEL();
